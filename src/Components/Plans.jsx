@@ -104,7 +104,8 @@ function Plans() {
                 <Link to="checkout/1">
                   <div className="btn">
                     <PayPal />
-                    Pay using PayPal
+                    Pay using PayPal / <br />
+                    Credit Card
                   </div>
                 </Link>
               </div>
@@ -135,7 +136,8 @@ function Plans() {
                 <Link to="checkout/3">
                   <div className="btn btn-popular">
                     <PayPal />
-                    Pay using PayPal
+                    Pay using PayPal / <br />
+                    Credit Card
                   </div>
                 </Link>
               </div>
@@ -167,7 +169,8 @@ function Plans() {
                 <Link to="/checkout/2">
                   <div className="btn">
                     <PayPal />
-                    Pay using PayPal
+                    Pay using PayPal / <br />
+                    Credit Card
                   </div>
                 </Link>
               </div>
@@ -198,7 +201,8 @@ function Plans() {
                 <Link to="/checkout/4">
                   <div className="btn">
                     <PayPal />
-                    Pay using PayPal
+                    Pay using PayPal / <br />
+                    Credit Card
                   </div>
                 </Link>
               </div>
