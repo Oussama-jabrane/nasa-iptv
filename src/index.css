@@ -143,8 +143,9 @@ header .nav-btn {
 
 
 .features-container {
+    position: relative;
     height: 100vh;
-    width: 100vw;
+    max-width: 100vw;
     background-image: url('https://nova-iptv.net/media/novaiptv-bg-2.jpg');
     background-size: cover;
 }
@@ -168,7 +169,7 @@ header .nav-btn {
     margin-left: 2rem;
     cursor: grab;
     height: 430px;
-    width: 345px;
+    max-width: 345px;
     border: 1px #2e3768 solid;
     border-radius: 1rem;
     display: flex;
@@ -195,7 +196,6 @@ header .nav-btn {
 
 
 .plans {
-    position: relative;
     min-height: 125vh;
     width: 100vw;
     background-color: #010221;
@@ -356,6 +356,7 @@ header .nav-btn {
 }
 
 .faq-widget {
+    margin-top: 3.7rem;
     position: absolute;
     left: 40%;
     float: left;
@@ -601,7 +602,7 @@ header .nav-btn {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 1.2rem;
+    padding-bottom: 1rem;
 }
 
 .payment-methods {
@@ -610,6 +611,191 @@ header .nav-btn {
     justify-content: flex-start;
     margin-left: 1rem;
     gap: 1rem;
+}
+
+.checkout {
+    padding: 1rem;
+    margin: 1rem;
+    margin-bottom: 3rem;
+    border: 2px #3C1161 solid;
+    border-radius: 10px;
+}
+
+.checkout h2 {
+    font-size: 20px;
+}
+
+.name-email-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: .2rem;
+}
+
+.name-container {
+    margin-top: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+.name-input {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.name-container input[type="text"] {
+    padding: 1rem;
+    height: 2rem;
+    width: 30vw;
+    background: #161732;
+    color: white;
+    border: 1.5px #BA45C1 solid;
+    border-radius: .5rem;
+    outline-width: none;
+    transition: .7s;
+}
+
+.name-container input[type="text"]:focus {
+    border: 2px #BA45C1 solid;
+    width: 35vw;
+    outline: none;
+}
+
+.email-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.email-input {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.email-container input[type="email"] {
+    padding: 1rem;
+    height: 2rem;
+    width: 30vw;
+    background: #161732;
+    color: white;
+    border: 1.5px #BA45C1 solid;
+    border-radius: .5rem;
+    outline-width: none;
+    transition: .7s;
+}
+
+.email-container input[type="email"]:focus {
+    border: 2px #BA45C1 solid;
+    width: 35vw;
+    outline: none;
+}
+
+.country-number-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.country-select {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.country-select select {
+    text-align: center;
+    outline: none;
+    color: black;
+    border-radius: 5px;
+}
+
+.number-container {
+    margin-top: 1.8rem;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+.number-input {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.number-container input[type="tel"] {
+    padding: 1rem;
+    height: 2rem;
+    width: 30vw;
+    background: #161732;
+    color: white;
+    border: 1.5px #BA45C1 solid;
+    border-radius: .5rem;
+    outline-width: none;
+    transition: .7s;
+}
+
+.number-container input[type="tel"]:focus {
+    border: 2px #BA45C1 solid;
+    width: 35vw;
+    outline: none;
+}
+
+.checkout-page {
+    margin-bottom: 2rem;
+}
+
+.checkout-payment {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.PayPalButtons {
+    width: 50vw;
+}
+
+.chosen-plan-description {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tv-image {
+    height: 7rem;
+    width: 7rem;
+}
+
+.details {
+    color: #8030A5;
+}
+
+.chosen-plan-description-caracteristics ul li {
+    list-style-type: disc;
+}
+
+iframe {
+    background-color: white;
+    height: 100vh;
+    width: 95vw;
+}
+
+.payment-methods {
+    width: 10rem;
+    height: 4rem;
 }
 
 /* Responsive Design */
@@ -669,6 +855,8 @@ header .nav-btn {
     .films-list-2 {
         gap: 1.5rem;
     }
+
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -708,6 +896,10 @@ header .nav-btn {
         color: white;
     }
 
+    .plans {
+        margin-top: 5rem;
+    }
+
     .first-cards {
         display: flex;
         align-items: center;
@@ -726,8 +918,8 @@ header .nav-btn {
         border: #b0b0b0 2px solid;
         box-shadow: rgba(159, 157, 157, 0.35) 2px 10px 20px;
         border-radius: 16px;
-        height: 75vh;
-        width: 40vw;
+        min-height: 84vh;
+        min-width: 40vw;
         padding: 1rem 0rem;
     }
 
@@ -740,8 +932,8 @@ header .nav-btn {
         border: #b0b0b0 2px solid;
         box-shadow: rgba(159, 157, 157, 0.35) 2px 10px 20px;
         border-radius: 16px;
-        height: 75vh;
-        width: 40vw;
+        min-height: 84vh;
+        min-width: 40vw;
         padding: 1rem 0rem;
     }
 
@@ -805,4 +997,119 @@ header .nav-btn {
         flex-direction: column;
     }
 
+}
+
+@media only screen and (max-width: 800px) {
+    .home {
+        position: relative;
+        padding-top: 3rem;
+        height: 130vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-section {
+        font-size: 3rem;
+        margin-top: 4rem;
+        top: 0;
+        margin-bottom: 2em;
+        position: absolute;
+    }
+
+    .second-section {
+        margin-top: 6em;
+        position: relative;
+    }
+
+    .plans-card {
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border: #b0b0b0 2px solid;
+        box-shadow: rgba(159, 157, 157, 0.35) 2px 10px 20px;
+        border-radius: 16px;
+        min-height: 84vh;
+        min-width: 80vw;
+        padding: 1rem 0rem;
+    }
+
+    .last-card {
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border: #b0b0b0 2px solid;
+        box-shadow: rgba(159, 157, 157, 0.35) 2px 10px 20px;
+        border-radius: 16px;
+        min-height: 84vh;
+        min-width: 80vw;
+        padding: 1rem 0rem;
+    }
+
+    .catalog {
+        position: relative;
+        width: 100vw;
+        gap: 0;
+    }
+
+    .films-list-1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0 1rem 0;
+        gap: 0;
+    }
+
+    .films-list-2 {
+        margin: 0 0 1rem 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 0rem;
+    }
+
+    .hero-grid {
+        margin: 1px;
+    }
+
+    .faq-widget {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .faq-container {
+        margin-top: -5rem;
+    }
+
+    .footer {
+        width: 130vw;
+    }
+
+    .payment-methods {
+        width: 4rem;
+        height: 2rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 660px) {
+    .features-container {
+        width: 100vw;
+    }
+
+    .feature {
+        width: 100%;
+        margin: 3rem auto;
+        padding: 2rem;
+    }
 }

@@ -5,7 +5,7 @@ function Footer() {
     <div
       id="footer"
       className="footer"
-      style={{ height: "15vh", width: "100vw" }}
+      style={{ maxHeight: "15vh", minWidth: "100vw" }}
     >
       <div className="payment-methods">
         <img

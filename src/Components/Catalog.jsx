@@ -26,9 +26,7 @@ function Catalog() {
                 The Northman is a 2022 American epic historical action thriller
                 film.
               </p>
-              <a class="hero-grid-link" href="#">
-                View more
-              </a>
+              <a class="hero-grid-link">View more</a>
             </figcaption>
           </figure>
           <figure class="hero-grid effect-move">
@@ -46,9 +44,7 @@ function Catalog() {
                 An American superhero film based on the Marvel Comics character
                 Black Panther.
               </p>
-              <a class="hero-grid-link" href="#">
-                View more
-              </a>
+              <a class="hero-grid-link">View more</a>
             </figcaption>
           </figure>
           <figure class="hero-grid effect-move">
@@ -65,9 +61,7 @@ function Catalog() {
                 Black Adam is liberated from his earthly binds to unleash his
                 fury on the modern world.
               </p>
-              <a class="hero-grid-link" href="#">
-                View more
-              </a>
+              <a class="hero-grid-link">View more</a>
             </figcaption>
           </figure>
           <figure class="hero-grid effect-move">
@@ -84,9 +78,7 @@ function Catalog() {
                 TOPGUN graduates to prepare for a high-profile mission while
                 Maverick battles his past demons.
               </p>
-              <a class="hero-grid-link" href="#">
-                View more
-              </a>
+              <a class="hero-grid-link">View more</a>
             </figcaption>
           </figure>
         </div>
@@ -104,9 +96,7 @@ function Catalog() {
                 A detective investigates the death of the patriarch of an
                 eccentric, combative family.
               </p>
-              <a class="hero-grid-link" href="#">
-                View more
-              </a>
+              <a class="hero-grid-link">View more</a>
             </figcaption>
           </figure>
           <figure class="hero-grid effect-move">
@@ -122,9 +112,7 @@ function Catalog() {
                 Five assassins aboard a swiftly-moving bullet train find out
                 that their missions have something in common.
               </p>
-              <a class="hero-grid-link" href="#">
-                View more
-              </a>
+              <a class="hero-grid-link">View more</a>
             </figcaption>
           </figure>
           <figure class="hero-grid effect-move">
@@ -140,9 +128,7 @@ function Catalog() {
                 A mentally troubled stand-up comedian embarks on a downward
                 spiral that leads to the creation of an iconic villain.
               </p>
-              <a class="hero-grid-link" href="#">
-                View more
-              </a>
+              <a class="hero-grid-link">View more</a>
             </figcaption>
           </figure>
           <figure class="hero-grid effect-move">
@@ -161,9 +147,7 @@ function Catalog() {
                 wealthy stock-broker living the high life to his fall involving
                 crime, corruption and the federal government.
               </p>
-              <a class="hero-grid-link" href="#">
-                View more
-              </a>
+              <a class="hero-grid-link">View more</a>
             </figcaption>
           </figure>
         </div>

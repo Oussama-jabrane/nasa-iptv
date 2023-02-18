@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // CSS File
 import "./index.css";
 // Import Local Files for Components
@@ -9,10 +10,37 @@ import Plans from "./Components/Plans.jsx";
 import FAQ from "./Components/FAQ.jsx";
 import Catalog from "./Components/Catalog.jsx";
 import Footer from "./Components/Footer.jsx";
+import Checkout1 from "./Components/Checkout1.jsx";
+import Checkout2 from "./Components/Checkout2.jsx";
+import Checkout3 from "./Components/Checkout3.jsx";
+import Checkout4 from "./Components/Checkout4.jsx";
 
 function App() {
   return (
     <div className="App">
+      <Router>
+        <Routes>
+          <Route path="/" element={<Application />} />
+          <Route path="*" exact={true} element={<Application />} />
+          <Route path="/checkout/1" element={<Checkout1 />} />
+          <Route path="/checkout/2" element={<Checkout2 />} />
+          <Route path="/checkout/3" element={<Checkout3 />} />
+          <Route path="/checkout/4" element={<Checkout4 />} />
+        </Routes>
+      </Router>
+
+      <div className="contact-support">
+        <a href="mailto:support@space-iptv.net">
+          <HeadSet className="headset" />
+        </a>
+      </div>
+    </div>
+  );
+}
+
+function Application() {
+  return (
+    <>
       <Navbar />
       <Home />
       <Features />
@@ -20,12 +48,7 @@ function App() {
       <Catalog />
       <FAQ />
       <Footer />
-      <div className="contact-support">
-        <a href="">
-          <HeadSet className="headset" />
-        </a>
-      </div>
-    </div>
+    </>
   );
 }
 

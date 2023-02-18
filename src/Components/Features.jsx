@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import PremiumApplication from "../assets/premium_application.png";
 import PayPal from "../assets/paypal.png";
 import RealTimeDelivery from "../assets/realtimedelivery.png";
@@ -10,10 +10,33 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 
 function Features() {
+  let slides;
+  const [width, setWidth] = useState(window.innerWidth);
+  const updateWindowDimensions = () => {
+    const newWidth = window.innerWidth;
+    setWidth(newWidth);
+    console.log("updating width");
+  };
+  useEffect(() => {
+    window.addEventListener("resize", updateWindowDimensions);
+    console.log("give width", width);
+  }, []);
+
+  if (width <= 10000) {
+    slides = 3;
+  }
+  if (width <= 790) {
+    slides = 2;
+  }
+  if (width <= 660) {
+    slides = 1;
+  }
+  console.log(width);
   return (
     <div
       style={{
         maxHeight: "250vh",
+        width: "100vw",
       }}
       id="features"
       className="features-container"
@@ -28,7 +51,7 @@ function Features() {
       <div className="features">
         <Swiper
           spaceBetween={50}
-          slidesPerView={3}
+          slidesPerView={slides}
           onSlideChange={() => console.log("slide change")}
           onSwiper={swiper => console.log(swiper)}
         >
