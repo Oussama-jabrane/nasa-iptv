@@ -11,7 +11,6 @@ import FAQ from "./Components/FAQ.jsx";
 import Catalog from "./Components/Catalog.jsx";
 import Footer from "./Components/Footer.jsx";
 import Checkout1 from "./Components/Checkout1.jsx";
-import Checkout2 from "./Components/Checkout2.jsx";
 import Checkout3 from "./Components/Checkout3.jsx";
 import Checkout4 from "./Components/Checkout4.jsx";
 
@@ -23,7 +22,6 @@ function App() {
           <Route path="/" element={<Application />} />
           <Route path="*" exact={true} element={<Application />} />
           <Route path="/checkout/1" element={<Checkout1 />} />
-          <Route path="/checkout/2" element={<Checkout2 />} />
           <Route path="/checkout/3" element={<Checkout3 />} />
           <Route path="/checkout/4" element={<Checkout4 />} />
         </Routes>

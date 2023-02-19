@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { BsListStars, BsHouseDoor, BsCoin, BsBook, BsQuestionSquare } from "react-icons/bs";
 
 function Navbar() {
   const navRef = useRef();
@@ -13,11 +14,11 @@ function Navbar() {
       <h3 className="logo">SPACE IPTV</h3>
 
       <nav ref={navRef}>
-        <a href="/#home">Home</a>
-        <a href="/#features">Features</a>
-        <a href="/#plans">Plans</a>
-        <a href="/#catalog">Catalog</a>
-        <a href="/#faq">FAQ</a>
+        <a href="/#home"><span className="link"><BsHouseDoor className="link-icon" /> Home</span></a>
+        <a href="/#features"><span className="link"><BsListStars className="link-icon" /> Features</span></a>
+        <a href="/#plans"><span className="link"><BsCoin className="link-icon" /> Plans</span></a>
+        <a href="/#catalog"><span className="link"><BsBook className="link-icon" /> Catalog</span></a>
+        <a href="/#faq"><span className="link"><BsQuestionSquare className="link-icon" /> FAQ</span></a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
         </button>
