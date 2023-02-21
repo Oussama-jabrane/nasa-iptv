@@ -27,7 +27,7 @@ function Footer() {
       </div>
       <div className="copyright" style={{ marginBottom: "1.3rem" }}>
         <span style={{ fontSize: "1.2rem" }}>
-          <a href="">Space IPTV</a>
+          <a href="">Nasa IPTV</a>
         </span>
         © 2023. All Rights Reserved.
       </div>

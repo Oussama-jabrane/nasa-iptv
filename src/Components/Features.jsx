@@ -42,7 +42,7 @@ function Features() {
       className="features-container"
     >
       <div className="intro">
-        <h1>Discover Space IPTV</h1>
+        <h1>Discover Nasa IPTV</h1>
         <h3>
           Well...we are the best choice for you, here some of benefits of using
           our service:
@@ -77,7 +77,7 @@ function Features() {
               </div>
               <div className="description">
                 <p>
-                  Our Team Has Developed Space IPTV For Better Use & Quick
+                  Our Team Has Developed Nasa IPTV For Better Use & Quick
                   Delivery With Instant Response.
                 </p>
               </div>
@@ -91,7 +91,7 @@ function Features() {
               </div>
               <div className="description">
                 <p>
-                  Space IPTV Provides 24/7 Online Private Customer Service With
+                  Nasa IPTV Provides 24/7 Online Private Customer Service With
                   Expert Team.
                 </p>
               </div>
@@ -105,7 +105,7 @@ function Features() {
               </div>
               <div className="description">
                 <p>
-                  Space IPTV Provide Best And Strong Tested Server For Your
+                  Nasa IPTV Provide Best And Strong Tested Server For Your
                   Devices
                 </p>
               </div>

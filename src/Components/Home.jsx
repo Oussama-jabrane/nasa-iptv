@@ -28,7 +28,7 @@ const Home = () => {
     >
       <div className="first-section">
         <h2>
-          We are SPACE IPTV. We <br />
+          We are Nasa IPTV. We <br />
           provide{" "}
           <span className="typewriting">
             <Typical

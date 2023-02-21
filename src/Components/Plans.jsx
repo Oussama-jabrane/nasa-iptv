@@ -18,7 +18,6 @@ function Plans() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-
   return (
     <div
       style={{
@@ -40,98 +39,97 @@ function Plans() {
         </h3>
       </div>
       <div className="plans-list">
-          <div className="first-cards">
-              <div className="plans-card">
-                <div className="plan-name">
-                  <h1>3 MONTHS</h1>
-                </div>
-                <div className="plans-image">
-                  <img src={TV} className="my-40 plan-image" />
-                </div>
-                <div className="plan-price">
-                  <h3>
-                    <s className="old-price">$20</s>
-                  </h3>
-                  <h1 className="current-price">$15</h1>
-                </div>
-                <div className="no_connections">1 CONNECTION.</div>
-                <div className="plan-outline"></div>
-                <div className="caracteritics-plans">
-                  ✓ 4K & FHD & HD Channels <br />
-                  ✓ +19000 Channels <br />
-                  ✓ +90000 Movies/Series <br />
-                  ✓ XXX Contents <br />✓ 24/7 Live Support
-                </div>
-                <Link to="checkout/1">
-                  <div className="btn">
-                    <BsCart3 />
-                    Purchase
-                  </div>
-                </Link>
+        <div className="first-cards">
+          <div className="plans-card">
+            <div className="plan-name">
+              <h1>3 MONTHS</h1>
+            </div>
+            <div className="plans-image">
+              <img src={TV} className="my-40 plan-image" />
+            </div>
+            <div className="plan-price">
+              <h3>
+                <s className="old-price">$20</s>
+              </h3>
+              <h1 className="current-price">$15</h1>
+            </div>
+            <div className="no_connections">1 CONNECTION.</div>
+            <div className="plan-outline"></div>
+            <div className="caracteritics-plans">
+              ✓ 4K & FHD & HD Channels <br />
+              ✓ +19000 Channels <br />
+              ✓ +90000 Movies/Series <br />
+              ✓ XXX Contents <br />✓ 24/7 Live Support
+            </div>
+            <Link to="checkout/1">
+              <div className="btn">
+                <BsCart3 />
+                Purchase
               </div>
-              <div className="plans-card popular">
-                <div className="plan-name">
-                  <h1>12 MONTHS</h1>
-                </div>
-                <div className="plans-image">
-                  <img src={Trophy} className="my-40 plan-image" />
-                </div>
-                <div className="plan-price">
-                  <h3>
-                    <s className="old-price">$55</s>
-                  </h3>
-                  <h1 className="current-price">$40</h1>
-                </div>
-                <div className="no_connections">1 CONNECTION.</div>
-                <div className="plan-outline"></div>
-                <div className="caracteritics-plans">
-                  ✓ 4K & FHD & HD Channels <br />
-                  ✓ +19000 Channels <br />
-                  ✓ +90000 Movies/Series <br />
-                  ✓ XXX Contents <br />
-                  ✓ 24/7 Live Support <br />✓ Space IPTV Premium Apps
-                </div>
-                <Link to="checkout/3">
-                  <div className="btn btn-popular">
-                    <BsCart3 />
-                    Purchase
-                  </div>
-                </Link>
-              </div>
-              <div className="plans-card">
-                <div className="plan-name">
-                  <h1>6 MONTHS</h1>
-                </div>
-                <div className="plans-image">
-                  <img src={Star} className="my-40 plan-image" />
-                </div>
-                <div className="plan-price">
-                  <h3>
-                    <s className="old-price">$30</s>
-                  </h3>
-                  <h1 className="current-price">$25</h1>
-                </div>
-                <div className="no_connections">1 CONNECTION.</div>
-                <div className="plan-outline"></div>
-                <div className="caracteritics-plans">
-                  ✓ 4K & FHD & HD Channels <br />
-                  ✓ +19000 Channels <br />
-                  ✓ +90000 Movies/Series <br />
-                  ✓ XXX Contents <br />
-                  ✓ 24/7 Live Support <br />✓ Space IPTV Premium Apps
-                </div>
-                <Link to="/checkout/4">
-                  <div className="btn">
-                    <BsCart3 />
-                    Purchase
-                  </div>
-                </Link>
-              </div>
+            </Link>
           </div>
+          <div className="plans-card popular">
+            <div className="plan-name">
+              <h1>12 MONTHS</h1>
+            </div>
+            <div className="plans-image">
+              <img src={Trophy} className="my-40 plan-image" />
+            </div>
+            <div className="plan-price">
+              <h3>
+                <s className="old-price">$55</s>
+              </h3>
+              <h1 className="current-price">$40</h1>
+            </div>
+            <div className="no_connections">1 CONNECTION.</div>
+            <div className="plan-outline"></div>
+            <div className="caracteritics-plans">
+              ✓ 4K & FHD & HD Channels <br />
+              ✓ +19000 Channels <br />
+              ✓ +90000 Movies/Series <br />
+              ✓ XXX Contents <br />
+              ✓ 24/7 Live Support <br />✓ Nasa IPTV Premium Apps
+            </div>
+            <Link to="checkout/3">
+              <div className="btn btn-popular">
+                <BsCart3 />
+                Purchase
+              </div>
+            </Link>
+          </div>
+          <div className="plans-card">
+            <div className="plan-name">
+              <h1>6 MONTHS</h1>
+            </div>
+            <div className="plans-image">
+              <img src={Star} className="my-40 plan-image" />
+            </div>
+            <div className="plan-price">
+              <h3>
+                <s className="old-price">$30</s>
+              </h3>
+              <h1 className="current-price">$25</h1>
+            </div>
+            <div className="no_connections">1 CONNECTION.</div>
+            <div className="plan-outline"></div>
+            <div className="caracteritics-plans">
+              ✓ 4K & FHD & HD Channels <br />
+              ✓ +19000 Channels <br />
+              ✓ +90000 Movies/Series <br />
+              ✓ XXX Contents <br />
+              ✓ 24/7 Live Support <br />✓ Nasa IPTV Premium Apps
+            </div>
+            <Link to="/checkout/4">
+              <div className="btn">
+                <BsCart3 />
+                Purchase
+              </div>
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );
 }
-
 
 export default Plans;

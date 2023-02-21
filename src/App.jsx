@@ -28,7 +28,7 @@ function App() {
       </Router>
 
       <div className="contact-support">
-        <a href="mailto:support@space-iptv.net">
+        <a href="mailto:support@nasaiptv.store">
           <HeadSet className="headset" />
         </a>
       </div>
