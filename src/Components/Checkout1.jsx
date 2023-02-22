@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Navbar.jsx"
+import Navbar from "./Navbar.jsx";
 
 const Checkout1 = () => {
   return (
@@ -7,7 +7,7 @@ const Checkout1 = () => {
       <Navbar />
       <div className="checkout">
         <iframe
-          src="https://space-iptv-1.kneo.me/shop/cart/add/621962"
+          src="https://space-iptv-1.kneo.me/form/12248476c67f51e5.html"
           frameborder="0"
         ></iframe>
       </div>

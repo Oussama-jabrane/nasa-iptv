@@ -793,7 +793,7 @@ iframe {
     background-color: white;
     border-radius: 2rem;
     min-height: 100vh;
-    width: 86vw;
+    min-width: 86vw;
 }
 
 .payment-methods {
