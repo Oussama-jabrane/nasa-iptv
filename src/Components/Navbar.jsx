@@ -10,22 +10,14 @@ import {
 import Logo from "../assets/logo/logo.png";
 
 function Navbar() {
-  let scrollPos = 0;
-  const logo = document.getElementById("logo");
-
-  const checkPosition = () => {
-    let windowY = window.scrollY;
-    if (windowY < scrollPos) {
-      logo.classList.add("is-visible");
-      logo.classList.remove("is-hidden");
+  window.addEventListener("scroll", () => {
+    if (window.screenY) {
+      document.getElementById("logo").style.display = "block";
     } else {
-      logo.classList.add("is-hidden");
-      logo.classList.remove("is-visible");
+      document.getElementById("logo").style.display = "none";
     }
-    scrollPos = windowY;
-  };
-
-  window.addEventListener("scroll", checkPosition);
+    console.log(window.screenY);
+  });
 
   const navRef = useRef();
 

@@ -28,6 +28,7 @@ body {
     margin-top: 0rem;
     margin-left: 20px;
     overflow: hidden;
+    -webkit-scrollbar: none;
 }
 
 .logo-image {
@@ -246,8 +247,8 @@ header .nav-btn {
 }
 
 .plan-image {
-    height: 60px;
-    width: 60px;
+    height: 90px;
+    width: 90px;
     margin-bottom: 20px;
 }
 

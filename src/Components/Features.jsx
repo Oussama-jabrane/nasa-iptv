@@ -15,11 +15,9 @@ function Features() {
   const updateWindowDimensions = () => {
     const newWidth = window.innerWidth;
     setWidth(newWidth);
-    console.log("updating width");
   };
   useEffect(() => {
     window.addEventListener("resize", updateWindowDimensions);
-    console.log("give width", width);
   }, []);
 
   if (width <= 10000) {
@@ -31,7 +29,6 @@ function Features() {
   if (width <= 660) {
     slides = 1;
   }
-  console.log(width);
   return (
     <div
       style={{
@@ -49,12 +46,7 @@ function Features() {
         </h3>
       </div>
       <div className="features">
-        <Swiper
-          spaceBetween={50}
-          slidesPerView={slides}
-          onSlideChange={() => console.log("slide change")}
-          onSwiper={swiper => console.log(swiper)}
-        >
+        <Swiper spaceBetween={50} slidesPerView={slides}>
           <SwiperSlide>
             <div className="feature">
               <img src={PayPal} className="cover-photo" />
@@ -141,6 +133,11 @@ function Features() {
           </SwiperSlide>
         </Swiper>
       </div>
+      <h3
+        style={{ fontSize: "1.9rem", textAlign: "center", marginTop: "2rem" }}
+      >
+        ← Sroll left or right to see more... →
+      </h3>
     </div>
   );
 }
