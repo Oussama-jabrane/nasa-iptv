@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div
       style={{
-        maxHeight: "200vh",
+        maxHeight: "150vh",
         backgroundPosition: `center ${scrollPosition * 0.4}px`,
         backgroundSize: "cover",
       }}
@@ -28,7 +28,7 @@ const Home = () => {
     >
       <div className="first-section">
         <h2>
-          We are Nasa IPTV. We <br />
+          We are Nasa IPTV. We <br className="breakline" />
           provide{" "}
           <span className="typewriting">
             <Typical
