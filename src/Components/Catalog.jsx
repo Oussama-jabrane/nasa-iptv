@@ -22,11 +22,6 @@ function Catalog() {
             <figcaption class="hero-grid-content">
               <span class="hero-tag effect-target">ACTION</span>
               <h2 class="hero-grid-title effect-target">THE NORTHMAN</h2>
-              <p class="hero-grid-text effect-target effect-text">
-                The Northman is a 2022 American epic historical action thriller
-                film.
-              </p>
-              <a class="hero-grid-link">View more</a>
             </figcaption>
           </figure>
           <figure class="hero-grid effect-move">
@@ -40,11 +35,6 @@ function Catalog() {
               <h2 class="hero-grid-title effect-target">
                 Black Panther: Wakanda Forever
               </h2>
-              <p class="hero-grid-text effect-target effect-text">
-                An American superhero film based on the Marvel Comics character
-                Black Panther.
-              </p>
-              <a class="hero-grid-link">View more</a>
             </figcaption>
           </figure>
           <figure class="hero-grid effect-move">
@@ -56,29 +46,6 @@ function Catalog() {
             <figcaption class="hero-grid-content">
               <span class="hero-tag effect-target">ACTION</span>
               <h2 class="hero-grid-title effect-target">BLACK ADAM</h2>
-              <p class="hero-grid-text effect-target effect-text">
-                After being bestowed with godly powers and imprisoned for it,
-                Black Adam is liberated from his earthly binds to unleash his
-                fury on the modern world.
-              </p>
-              <a class="hero-grid-link">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="hero-grid effect-move">
-            <img
-              class="hero-grid-image effect-image"
-              src="https://m.media-amazon.com/images/M/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg"
-              alt=""
-            />
-            <figcaption class="hero-grid-content">
-              <span class="hero-tag effect-target">ACTION</span>
-              <h2 class="hero-grid-title effect-target">Top Gun: Maverick</h2>
-              <p class="hero-grid-text effect-target effect-text">
-                Thirty years of service leads Maverick to train a group of elite
-                TOPGUN graduates to prepare for a high-profile mission while
-                Maverick battles his past demons.
-              </p>
-              <a class="hero-grid-link">View more</a>
             </figcaption>
           </figure>
         </div>
@@ -92,27 +59,6 @@ function Catalog() {
             <figcaption class="hero-grid-content">
               <span class="hero-tag effect-target">COMEDY</span>
               <h2 class="hero-grid-title effect-target">Knives Out</h2>
-              <p class="hero-grid-text effect-target effect-text">
-                A detective investigates the death of the patriarch of an
-                eccentric, combative family.
-              </p>
-              <a class="hero-grid-link">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="hero-grid effect-move">
-            <img
-              class="hero-grid-image effect-image"
-              src="https://m.media-amazon.com/images/M/MV5BOTBhZGJjYjQtODRjOC00MWJhLTk1NTctZDJiM2JkMTY3MGNiXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg"
-              alt=""
-            />
-            <figcaption class="hero-grid-content">
-              <span class="hero-tag effect-target">ACTION</span>
-              <h2 class="hero-grid-title effect-target">Bullet Train</h2>
-              <p class="hero-grid-text effect-target effect-text">
-                Five assassins aboard a swiftly-moving bullet train find out
-                that their missions have something in common.
-              </p>
-              <a class="hero-grid-link">View more</a>
             </figcaption>
           </figure>
           <figure class="hero-grid effect-move">
@@ -124,11 +70,6 @@ function Catalog() {
             <figcaption class="hero-grid-content">
               <span class="hero-tag effect-target">CRIME</span>
               <h2 class="hero-grid-title effect-target">JOKER</h2>
-              <p class="hero-grid-text effect-target effect-text">
-                A mentally troubled stand-up comedian embarks on a downward
-                spiral that leads to the creation of an iconic villain.
-              </p>
-              <a class="hero-grid-link">View more</a>
             </figcaption>
           </figure>
           <figure class="hero-grid effect-move">
@@ -142,12 +83,6 @@ function Catalog() {
               <h2 class="hero-grid-title effect-target">
                 The Wolf of Wall Street
               </h2>
-              <p class="hero-grid-text effect-target effect-text">
-                Based on the true story of Jordan Belfort, from his rise to a
-                wealthy stock-broker living the high life to his fall involving
-                crime, corruption and the federal government.
-              </p>
-              <a class="hero-grid-link">View more</a>
             </figcaption>
           </figure>
         </div>
