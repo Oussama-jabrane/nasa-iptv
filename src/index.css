@@ -1167,6 +1167,10 @@ iframe {
         margin: 3rem auto;
         padding: 2rem;
     }
+
+    .popular {
+        min-height: 110vh;
+    }
 }
 
 @media only screen and (max-height: 500px) {
