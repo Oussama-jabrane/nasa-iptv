@@ -139,20 +139,6 @@ function Features() {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="feature">
-              <img src={PremiumApplication} className="cover-photo" />
-              <div className="title">
-                <h1>Premium Application</h1>
-              </div>
-              <div className="description">
-                <p>
-                  We Provide +10 Premium Applications with different device
-                  platform (Samsung, Android, LG, IOS...)
-                </p>
-              </div>
-            </div>
-          </SwiperSlide>
         </Swiper>
       </div>
     </div>
