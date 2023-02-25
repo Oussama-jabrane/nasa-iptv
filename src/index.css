@@ -1034,6 +1034,11 @@ iframe {
         position: relative;
     }
 
+    .image-section {
+        height: 120px;
+        width: 120px;
+    }
+
     .breakline {
         display: none;
     }
