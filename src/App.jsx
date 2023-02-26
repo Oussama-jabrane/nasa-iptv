@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // CSS File
 import "./index.css";
 // Import Local Files for Components
@@ -18,13 +18,15 @@ import ThankYouPage from "./Components/ThankYouPage.jsx";
 function App() {
   return (
     <div className="App">
-      <Routes>
-        <Route path="/" element={<Application />} />
-        <Route path="thank-you" element={<ThankYouPage />} />
-        <Route path="checkout/1" element={<Checkout1 />} />
-        <Route path="checkout/3" element={<Checkout3 />} />
-        <Route path="checkout/4" element={<Checkout4 />} />
-      </Routes>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Application />} />
+          <Route path="thank-you" element={<ThankYouPage />} />
+          <Route path="checkout/1" element={<Checkout1 />} />
+          <Route path="checkout/3" element={<Checkout3 />} />
+          <Route path="checkout/4" element={<Checkout4 />} />
+        </Routes>
+      </Router>
 
       <div className="contact-support">
         <a href="mailto:support@nasaiptv.store">
