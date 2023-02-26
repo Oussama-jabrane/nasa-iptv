@@ -13,6 +13,7 @@ import Footer from "./Components/Footer.jsx";
 import Checkout1 from "./Components/Checkout1.jsx";
 import Checkout3 from "./Components/Checkout3.jsx";
 import Checkout4 from "./Components/Checkout4.jsx";
+import ThankYouPage from "./Components/ThankYouPage.jsx";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/checkout/1" element={<Checkout1 />} />
           <Route path="/checkout/3" element={<Checkout3 />} />
           <Route path="/checkout/4" element={<Checkout4 />} />
+          <Route path="/thank-you" element={<ThankYouPage />} />
         </Routes>
       </Router>
 
