@@ -21,10 +21,10 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Application />} />
-          <Route path="thank-you" element={<ThankYouPage />} />
-          <Route path="checkout/1" element={<Checkout1 />} />
-          <Route path="checkout/3" element={<Checkout3 />} />
-          <Route path="checkout/4" element={<Checkout4 />} />
+          <Route path="/thank-you" element={<ThankYouPage />} />
+          <Route path="/checkout/1" element={<Checkout1 />} />
+          <Route path="/checkout/3" element={<Checkout3 />} />
+          <Route path="/checkout/4" element={<Checkout4 />} />
         </Routes>
       </Router>
 
