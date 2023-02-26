@@ -3,7 +3,8 @@ import Channels from "../assets/channels.png";
 import VOD from "../assets/VOD.png";
 import Users from "../assets/users.png";
 import Orders from "../assets/orders.png";
-import Typical from "react-typical";
+// import Typical from "react-typical";
+import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -31,17 +32,19 @@ const Home = () => {
           We are Nasa IPTV. We <br className="breakline" />
           provide{" "}
           <span className="typewriting">
-            <Typical
+            <TypeAnimation
               className="typewriting"
-              wrapper="b"
-              steps={[
-                "Stable IPTV.",
-                2500,
-                "Strong IPTV.",
-                2500,
-                "Huge IPTV.",
-                2500,
+              sequence={[
+                "Stable IPTV",
+                2000,
+                "Strong IPTV",
+                2000,
+                "Huge IPTV",
+                2000,
               ]}
+              wrapper="b"
+              cursor={true}
+              repeat={Infinity}
             />
           </span>
         </h2>
