@@ -3,7 +3,6 @@ import Channels from "../assets/channels.png";
 import VOD from "../assets/VOD.png";
 import Users from "../assets/users.png";
 import Orders from "../assets/orders.png";
-// import Typical from "react-typical";
 import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
