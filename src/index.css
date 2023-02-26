@@ -1035,8 +1035,8 @@ iframe {
     }
 
     .image-section {
-        height: 150px;
-        width: 150px;
+        height: 170px;
+        width: 170px;
     }
 
     .breakline {
@@ -1168,6 +1168,11 @@ iframe {
 
 
 @media only screen and (max-width: 660px) {
+    .image-section {
+        height: 140px;
+        width: 140px;
+    }
+
     .features-container {
         width: 100vw;
     }
