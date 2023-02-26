@@ -36,7 +36,7 @@ body {
 }
 
 header {
-    position: fixed;
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -125,8 +125,9 @@ header .nav-btn {
 
 .second-section {
     position: absolute;
-    margin: 3rem 3.5rem 0 0;
-    padding: 2rem;
+    margin-top: 6rem;
+    margin-right: 4.5rem;
+    padding: 2rem 0;
     right: 0;
     transform: translateY(0%);
     font-size: 40px;
@@ -140,17 +141,20 @@ header .nav-btn {
     direction: flex;
     flex-direction: row;
     align-items: center;
+    gap: 2rem;
 }
 
 .second-section-two {
     direction: flex;
     flex-direction: row;
     align-items: center;
+    gap: 2rem;
 }
 
 .image-section {
-    height: 190px;
-    width: 190px;
+    margin: .3rem;
+    height: 200px;
+    width: 210px;
 }
 
 .section {
@@ -843,8 +847,8 @@ iframe {
     }
 
     .image-section {
-        height: 160px;
-        width: 160px;
+        height: 190px;
+        width: 190px;
     }
 
     .feature {
@@ -1019,7 +1023,7 @@ iframe {
     .home {
         position: relative;
         padding-top: 3rem;
-        height: 70vh !important;
+        max-height: 60vh !important;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1031,8 +1035,8 @@ iframe {
     }
 
     .image-section {
-        height: 120px;
-        width: 120px;
+        height: 170px;
+        width: 170px;
     }
 
     .breakline {
@@ -1045,7 +1049,7 @@ iframe {
 
     .second-section {
         position: absolute;
-        margin-top: 30vh;
+        margin-top: 25vh;
         left: 0;
         right: 0;
         margin-left: auto;
