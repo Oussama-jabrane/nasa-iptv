@@ -7,16 +7,6 @@ import Orders from "../assets/orders.png";
 import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
-  const [scrollPosition, setScrollPosition] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollPosition(window.pageYOffset);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   return (
     <div
       style={{
