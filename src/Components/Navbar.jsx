@@ -10,15 +10,6 @@ import {
 import Logo from "../assets/logo/logo.png";
 
 function Navbar() {
-  window.addEventListener("scroll", () => {
-    if (window.screenY) {
-      document.getElementById("logo").style.display = "block";
-    } else {
-      document.getElementById("logo").style.display = "none";
-    }
-    console.log(window.screenY);
-  });
-
   const navRef = useRef();
 
   const showNavbar = () => {
