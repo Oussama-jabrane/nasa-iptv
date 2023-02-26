@@ -1177,6 +1177,12 @@ iframe {
     .popular {
         min-height: 110vh;
     }
+
+    .plans-card {
+        position: relative;
+        left: 0;
+        transform: translateX(-4%);
+    }
 }
 
 @media only screen and (max-height: 500px) {
