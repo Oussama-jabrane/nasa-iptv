@@ -25,7 +25,6 @@ function App() {
           <Route path="/checkout/1" element={<Checkout1 />} />
           <Route path="/checkout/3" element={<Checkout3 />} />
           <Route path="/checkout/4" element={<Checkout4 />} />
-          <Route path="*" exact={true} element={<Application />} />
         </Routes>
       </Router>
 
