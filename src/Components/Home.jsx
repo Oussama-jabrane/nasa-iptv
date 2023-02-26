@@ -33,15 +33,14 @@ const Home = () => {
           <span className="typewriting">
             <Typical
               className="typewriting"
-              loop={Infinity}
               wrapper="b"
               steps={[
                 "Stable IPTV.",
-                1000,
+                2500,
                 "Strong IPTV.",
-                1000,
+                2500,
                 "Huge IPTV.",
-                1000,
+                2500,
               ]}
             />
           </span>
