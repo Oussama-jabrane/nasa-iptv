@@ -25,7 +25,7 @@ body {
 }
 
 .logo {
-    margin-top: 0rem;
+    padding-top: 0rem;
     margin-left: 20px;
     overflow: hidden;
     -webkit-scrollbar: none;
@@ -52,7 +52,7 @@ nav {
     position: absolute;
     display: flex;
     flex-direction: row;
-    margin-top: 1rem;
+    padding-top: 1rem;
     right: 3rem;
 }
 
@@ -1196,12 +1196,12 @@ iframe {
     }
 
     .second-section {
-        margin-top: 35vh;
+        margin-top: 27vh;
     }
 
     .image-section {
-        height: 140px;
-        width: 140px;
+        height: 150px;
+        width: 150px;
     }
 
     .features-container {
