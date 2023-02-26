@@ -1168,6 +1168,14 @@ iframe {
 
 
 @media only screen and (max-width: 660px) {
+    .home {
+        height: 90vh !important;
+    }
+
+    .second-section {
+        margin-top: 35vh;
+    }
+
     .image-section {
         height: 140px;
         width: 140px;
