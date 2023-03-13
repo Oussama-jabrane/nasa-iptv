@@ -258,6 +258,9 @@ header .nav-btn {
 
 .plans-list {
     margin: 2.4rem 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .plans-card {

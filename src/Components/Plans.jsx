@@ -87,8 +87,7 @@ function Plans() {
               ✓ 4K & FHD & HD Channels <br />
               ✓ +19000 Channels <br />
               ✓ +90000 Movies/Series <br />
-              ✓ XXX Contents <br />
-              ✓ 24/7 Live Support <br />✓ Nasa IPTV Premium Apps
+              ✓ XXX Contents <br />✓ 24/7 Live Support
             </div>
             <Link to="checkout/3">
               <div className="btn btn-popular">
@@ -116,10 +115,38 @@ function Plans() {
               ✓ 4K & FHD & HD Channels <br />
               ✓ +19000 Channels <br />
               ✓ +90000 Movies/Series <br />
-              ✓ XXX Contents <br />
-              ✓ 24/7 Live Support <br />✓ Nasa IPTV Premium Apps
+              ✓ XXX Contents <br />✓ 24/7 Live Support
             </div>
             <Link to="/checkout/4">
+              <div className="btn">
+                <BsCart3 />
+                Purchase
+              </div>
+            </Link>
+          </div>
+        </div>
+        <div className="last-cards">
+          <div className="plans-card">
+            <div className="plan-name">
+              <h1>TEST</h1>
+            </div>
+            <div className="plans-image">
+              <img src={TV} className="my-40 plan-image" />
+            </div>
+            <div className="plan-price">
+              <h1 style={{ marginTop: "-10px" }} className="current-price">
+                $0.01
+              </h1>
+            </div>
+            <div className="no_connections">1 CONNECTION.</div>
+            <div className="plan-outline"></div>
+            <div className="caracteritics-plans">
+              ✓ 4K & FHD & HD Channels <br />
+              ✓ +19000 Channels <br />
+              ✓ +90000 Movies/Series <br />
+              ✓ XXX Contents <br />✓ 24/7 Live Support
+            </div>
+            <Link to="checkout/2">
               <div className="btn">
                 <BsCart3 />
                 Purchase
