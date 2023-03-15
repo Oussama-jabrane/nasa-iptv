@@ -42,16 +42,16 @@ function Plans() {
         <div className="first-cards">
           <div className="plans-card">
             <div className="plan-name">
-              <h1>3 MONTHS</h1>
+              <h1>12 HOURS</h1>
             </div>
             <div className="plans-image">
               <img src={TV} className="my-40 plan-image" />
             </div>
             <div className="plan-price">
               <h3>
-                <s className="old-price">$20</s>
+                <s className="old-price">$2</s>
               </h3>
-              <h1 className="current-price">$15</h1>
+              <h1 className="current-price">$1</h1>
             </div>
             <div className="no_connections">1 CONNECTION.</div>
             <div className="plan-outline"></div>
@@ -61,7 +61,7 @@ function Plans() {
               ✓ +90000 Movies/Series <br />
               ✓ XXX Contents <br />✓ 24/7 Live Support
             </div>
-            <Link to="checkout/1">
+            <Link to="checkout/2">
               <div className="btn">
                 <BsCart3 />
                 Purchase
@@ -128,15 +128,16 @@ function Plans() {
         <div className="last-cards">
           <div className="plans-card">
             <div className="plan-name">
-              <h1>TEST</h1>
+              <h1>24 MONTHS</h1>
             </div>
             <div className="plans-image">
               <img src={TV} className="my-40 plan-image" />
             </div>
             <div className="plan-price">
-              <h1 style={{ marginTop: "-10px" }} className="current-price">
-                $0.01
-              </h1>
+              <h3>
+                <s className="old-price">$80</s>
+              </h3>
+              <h1 className="current-price">$70</h1>
             </div>
             <div className="no_connections">1 CONNECTION.</div>
             <div className="plan-outline"></div>
@@ -146,7 +147,7 @@ function Plans() {
               ✓ +90000 Movies/Series <br />
               ✓ XXX Contents <br />✓ 24/7 Live Support
             </div>
-            <Link to="checkout/2">
+            <Link to="checkout/1">
               <div className="btn">
                 <BsCart3 />
                 Purchase
