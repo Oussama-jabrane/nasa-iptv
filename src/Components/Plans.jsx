@@ -51,7 +51,7 @@ function Plans() {
               <h3>
                 <s className="old-price">$2</s>
               </h3>
-              <h1 className="current-price">$1</h1>
+              <h1 className="current-price">$0.99</h1>
             </div>
             <div className="no_connections">1 CONNECTION.</div>
             <div className="plan-outline"></div>
@@ -77,9 +77,9 @@ function Plans() {
             </div>
             <div className="plan-price">
               <h3>
-                <s className="old-price">$55</s>
+                <s className="old-price">$60</s>
               </h3>
-              <h1 className="current-price">$40</h1>
+              <h1 className="current-price">$49</h1>
             </div>
             <div className="no_connections">1 CONNECTION.</div>
             <div className="plan-outline"></div>
@@ -105,9 +105,9 @@ function Plans() {
             </div>
             <div className="plan-price">
               <h3>
-                <s className="old-price">$30</s>
+                <s className="old-price">$35</s>
               </h3>
-              <h1 className="current-price">$25</h1>
+              <h1 className="current-price">$29</h1>
             </div>
             <div className="no_connections">1 CONNECTION.</div>
             <div className="plan-outline"></div>
@@ -137,7 +137,7 @@ function Plans() {
               <h3>
                 <s className="old-price">$80</s>
               </h3>
-              <h1 className="current-price">$70</h1>
+              <h1 className="current-price">$69</h1>
             </div>
             <div className="no_connections">1 CONNECTION.</div>
             <div className="plan-outline"></div>

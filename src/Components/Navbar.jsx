@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { BiCookie } from "react-icons/bi";
 import {
   BsListStars,
   BsHouseDoor,
@@ -46,6 +47,11 @@ function Navbar() {
           <a href="/#faq">
             <span className="link">
               <BsQuestionSquare className="link-icon" /> FAQ
+            </span>
+          </a>
+          <a href="/cookies">
+            <span className="link">
+              <BiCookie className="link-icon" /> Cookies
             </span>
           </a>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>

@@ -9,6 +9,7 @@ import Features from "./Components/Features.jsx";
 import Plans from "./Components/Plans.jsx";
 import FAQ from "./Components/FAQ.jsx";
 import Catalog from "./Components/Catalog.jsx";
+import Cookies from "./Components/Cookies.jsx";
 import Footer from "./Components/Footer.jsx";
 import Checkout1 from "./Components/Checkout1.jsx";
 import Checkout2 from "./Components/Checkout2.jsx";
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Application />} />
           <Route path="/thank-you" element={<ThankYouPage />} />
+          <Route path="/cookies" element={<Cookies />} />
           <Route path="/checkout/1" element={<Checkout1 />} />
           <Route path="/checkout/2" element={<Checkout2 />} />
           <Route path="/checkout/3" element={<Checkout3 />} />
